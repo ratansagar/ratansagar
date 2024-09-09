@@ -16,4 +16,6 @@ Here are some ideas to get you started:
 -->
 ### 🐍 Snake Game
 
-![GitHub Snake Contribution Grid](https://github.com/YOUR_USERNAME/YOUR_USERNAME/blob/output/github-contribution-grid-snake.svg)
+![GitHub Snake Contribution Grid](https://github.com/ratansagar/ratansagar/blob/output/github-contribution-grid-snake.svg)
+
+
