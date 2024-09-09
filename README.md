@@ -1,4 +1,3 @@
-### 🐍 Snake Game
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ratansagar/ratansagar/output/github-snake-dark.svg" />
