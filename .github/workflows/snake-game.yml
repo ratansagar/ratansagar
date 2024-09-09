@@ -18,4 +18,4 @@ jobs:
         uses: Platane/snk@v3.2.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          output: dist/github-contribution-grid-snake.svg
+          github_user_name: ratansagar
