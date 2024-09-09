@@ -1,0 +1,21 @@
+name: Generate Snake Game from GitHub Contribution Grid
+
+on:
+  schedule:
+    # Runs at 12:00 AM UTC every day
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v2
+
+      - name: Generate Snake Game from Contribution Grid
+        uses: Platane/snk@v3.2.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          output: dist/github-contribution-grid-snake.svg
